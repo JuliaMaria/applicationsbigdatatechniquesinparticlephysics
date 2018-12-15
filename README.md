@@ -5,5 +5,7 @@ Repositorio para la asignatura Cloud and Big Data
 - Python2 installed
 - Packages installed: numpy, pandas, xgboost
 - Dataset downloaded and saved in the same folder as Python code: https://archive.ics.uci.edu/ml/datasets/HIGGS
+# Command to run: 
+python Higgs.py
 # Results: 
 - Trained model saved as higgs.model
