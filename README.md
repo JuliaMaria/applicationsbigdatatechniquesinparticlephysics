@@ -1,5 +1,3 @@
-# cloud-bigdata
-Repositorio para la asignatura Cloud and Big Data
 # Webpage link: 
 https://vivianasandagordaguaman.github.io/applicationsbigdatatechniquesinparticlephysics/
 # Machine learning model - Boosted Trees with XGBoost (File MachineLearningModel/Higgs.py)
