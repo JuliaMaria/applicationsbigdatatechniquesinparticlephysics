@@ -1,6 +1,6 @@
 # cloud-bigdata
 Repositorio para la asignatura Cloud and Big Data
-# Machine learning model - Boosted Trees with XGBoost (File Higgs.py)
+# Machine learning model - Boosted Trees with XGBoost (File MachineLearningModel/Higgs.py)
 # Requirements: 
 - Python2 installed
 - Packages installed: numpy, pandas, xgboost
