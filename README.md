@@ -8,4 +8,4 @@ Repositorio para la asignatura Cloud and Big Data
 # Command to run: 
 python Higgs.py
 # Results: 
-- Trained model saved as higgs.model
+- Trained model saved in the same folder as Python code as higgs.model
