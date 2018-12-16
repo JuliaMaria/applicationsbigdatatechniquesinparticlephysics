@@ -1,5 +1,5 @@
 # Webpage link: 
-https://vivianasandagordaguaman.github.io/applicationsbigdatatechniquesinparticlephysics/
+https://vivianasandagordaguaman.github.io/applicationsbigdatatechniquesinparticlephysics/Webpage/
 # Machine learning model - Boosted Trees with XGBoost (File MachineLearningModel/Higgs.py)
 # Parameters:
 - Dataset size used: 100000 (Full dataset: 11000000)
