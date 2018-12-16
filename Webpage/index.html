@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cloud & Big Data 2018</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Applications of Big Data techniques in particle physics</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-uppercase">Identifying events involving Higgs Boson in the particle accelerator - applications of Big Data processing in the Cloud and Machine Learning in particle physics</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Source code</h2>
+            <a href="https://github.com/vivianasandagordaguaman/applicationsbigdatatechniquesinparticlephysics">https://github.com/vivianasandagordaguaman/applicationsbigdatatechniquesinparticlephysics</a>
+            <br /><br />
+            <h2 class="section-heading">Problem</h2>
+            <p class="text-muted mb-0">Our application is addressing a modern scientific problem which is the need for automated processing of scientific data. The constantly growing amount of experimental data obtained for example from LHC in CERN is becoming way too ample to be processed by humans in reasonable time. In order to draw conclusions from these data, techniques such as Machine Learning, Big Data or Cloud are needed.</p>
+            <br />
+            <h2 class="section-heading">Data</h2>
+            <p class="text-muted mb-0">Dataset used in this demonstration comes from UCI ML Repository and can be downloaded as .gz file from the webpage: <a href="https://archive.ics.uci.edu/ml/datasets/HIGGS#">https://archive.ics.uci.edu/ml/datasets/HIGGS#</a>. This data was produced using Monte Carlo simulations, resembling real data obtained during experiments in a particle accelerator. First column contains the label of a given event (1 - event involving Higgs boson, 0 - background process not involving Higgs boson). First 21 features (columns 2-22) contain kinematic properties measured by the particle detectors in the accelerator. Last seven features contain combinations of the first 21 features - high-level features derived by physicists to help discriminate between the two classes.  </p>
+            <br />
+            <h2 class="section-heading">Design</h2>
+            <p class="text-muted mb-0">Project consists of two parts: machine learning model (Boosted trees with Python and XGBoost) and dataset statistics (Python with Spark). Machine learning model learns dependencies from data and is able to predict if a given event involves Higgs Boson. It is very useful that a trained model can indicate which events may be potentially interesting and require taking a closer look. Interesting events can be separated from the background noise and it makes data processing much easier. Generating dataset statistics also plays an important role because it can be helpful to have a deeper insight into the dataset and its features. </p>
+            <br />
+            <h2 class="section-heading">Usage</h2>
+            <p class="text-muted mb-0">Both parts of the project are Python scripts which can be run, for instance, in a Linux terminal, with program output directed to standard output. Both use the aforementioned dataset as input. </p>
+            <br />
+            <h2 class="section-heading">Performance</h2>
+            <p class="text-muted mb-0"></p>
+            <br />
+            <h2 class="section-heading">Insights</h2>
+            <p class="text-muted mb-0">The most important insight that we gained from this project is how crucial it is to use automated data processing in experimental physics. Looking at the size of the dataset, it becomes obvious that it would be infeasible to be processed by humans and the real experimental datasets can be even larger. It highlights that Machine Learning and Big Data techniques are necessary to draw conclusions from datasets of that size.</p>
+            <br />
+            <h2 class="section-heading">Improvements</h2>
+            <p class="text-muted mb-0">To improve the machine learning results by decreasing overfitting the following improvements could be suggested: adding more data (the rest of the original dataset, the model was trained using only a part of it), trying different values of regularization parameters like gamma (the minimum loss reduction), alpha (L1 regularization), maximum depth of a tree, eta (learning rate) and subsample (subsample ratio of the training instances), training the model for more epochs. </p>
+            <br />
+            <h2 class="section-heading">Challenges</h2>
+            <p class="text-muted mb-0">The most enjoyable part of the project was searching for the best machine learning algorithm for the given problem and reading about a different approach to a well-known machine learning algorithm - decision tree classifier. The most challenging aspect of the project was the size of the original dataset (2.8 GB after compression) which made it a bit cumbersome to work with. The most time-consuming part was training the model with different hyperparameters to obtain better performance. What could be changed about the project is that the model could be trained on a more powerful machine, which would make it possible to use the whole dataset and train the model for more epochs to obtain better results.</p>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-0" id="portfolio">
+  <div class="container-fluid p-0">
+    <div class="row no-gutters popup-gallery">
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box" href="img/ml.jpg">
+          <img class="img-fluid" src="img/ml.jpg" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                Machine learning training
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box" href="img/ml.jpg">
+          <img class="img-fluid" src="img/ml.jpg" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                Machine learning training
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <a class="portfolio-box" href="img/ml.jpg">
+          <img class="img-fluid" src="img/ml.jpg" alt="">
+          <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+              <div class="project-category text-faded">
+                Machine learning training
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+  </body>
+
+</html>
