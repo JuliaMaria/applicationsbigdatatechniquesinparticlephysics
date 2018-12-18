@@ -1,0 +1,48 @@
+Parameter no: 1
+Positive Values:
+Bosson Found: 5829123 Bosson Not Found: 5170877
+Negative Values:
+Bosson Found: 0 Bosson Not Found: 0
+
+Parameter no: 2
+Positive Values:
+Bosson Found: 2914001 Bosson Not Found: 2585459
+Negative Values:
+Bosson Found: 2915122 Bosson Not Found: 2585418
+
+Parameter no: 3
+Positive Values:
+Bosson Found: 2915748 Bosson Not Found: 2583914
+Negative Values:
+Bosson Found: 2913375 Bosson Not Found: 2586963
+
+Parameter no: 4
+Positive Values:
+Bosson Found: 5829123 Bosson Not Found: 5170877
+Negative Values:
+Bosson Found: 0 Bosson Not Found: 0
+
+Parameter no: 5
+Positive Values:
+Bosson Found: 2913905 Bosson Not Found: 2586786
+Negative Values:
+Bosson Found: 2915218 Bosson Not Found: 2584091
+
+Parameter no: 6
+Positive Values:
+Bosson Found: 5829123 Bosson Not Found: 5170877
+Negative Values:
+Bosson Found: 0 Bosson Not Found: 0
+
+Parameter no: 7
+Positive Values:
+Bosson Found: 2913684 Bosson Not Found: 2585113
+Negative Values:
+Bosson Found: 2915439 Bosson Not Found: 2585764
+
+Parameter no: 8
+Positive Values:
+Bosson Found: 2915495 Bosson Not Found: 2585385
+Negative Values:
+Bosson Found: 2913628 Bosson Not Found: 2585492
+
